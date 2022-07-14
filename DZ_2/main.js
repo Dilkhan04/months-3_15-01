@@ -26,3 +26,10 @@ const move = () => {
 move();
 
 
+let i = 0;
+function any() {
+	i++;
+	console.log(i + " сек.");
+}
+
+id = setInterval(any, 1000);

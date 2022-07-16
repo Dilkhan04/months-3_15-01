@@ -36,13 +36,13 @@
 
 
 
-// let i = 0;
-// function any() {
-// 	i++;
-// 	console.log(i + " сек.");
-// }
+let i = 0;
+function any() {
+	i++;
+	console.log(i + " сек.");
+}
 
-// id = setInterval(any, 1000);
+id = setInterval(any, 1000);
 
 
 

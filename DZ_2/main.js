@@ -24,15 +24,15 @@
 // 	}
 // };
 // move();
-// // const move = () => {
-// // 	if (xPos  < 360 && yPos > 0 ) {
-// // 		xPos += 16;
-// // 		yPos -= 16;
-// // 		block.style.left = `${xPos}px`;
-// // 		block.style.bottom = `${xPos}px`;
-// // 		setTimeout(move,300)
-// // 			}
-// // 		}
+// const move = () => {
+// 	if (xPos  < 360 && yPos > 0 ) {
+// 		xPos += 16;
+// 		yPos -= 16;
+// 		block.style.left = `${xPos}px`;
+// 		block.style.bottom = `${xPos}px`;
+// 		setTimeout(move,300)
+// 			}
+// 		}
 
 
 
@@ -92,16 +92,6 @@ id = setInterval(any, 1000);
 //   displayName();
 // };
 // init();
-
-const func = (num) => {
-	const culk = () => {
-		console.log(1000 * num);
-	};
-	culk();
-};
-
-func(24);
-
 const funk = (n) => {
 	return function (num) {
 		return n + num;
@@ -110,9 +100,6 @@ const funk = (n) => {
 
 const addOne = funk(1);
 const addTen = funk(10);
-
-console.log(addOne(10));
-console.log(addTen(3));
 
 const block = document.querySelector(".block");
 

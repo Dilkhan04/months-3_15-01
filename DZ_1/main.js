@@ -32,31 +32,3 @@ const plus = function (leftBlock) {
 
 }
 block.addEventListener("click", plus)
-
-
-// let nom = 0;
-// let field = "";
-// const count = () => {
-// 	nom++;
-// 	console.log(num);
-// 	if (nom < 50) {
-// 		return count();
-// 	}
-// };
-// count();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
